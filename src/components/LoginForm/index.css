@@ -1,0 +1,79 @@
+.loginform-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #121212;
+  min-height: 100vh;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  color: #f8fafc;
+  border: none;
+  border-radius: 8px;
+  padding: 50px;
+}
+
+.loginform-img {
+  max-width: 100px;
+  max-height: 40px;
+  margin-bottom: 50px;
+}
+@media screen and (min-width: 768px) {
+  .loginform-img {
+    width: 400px;
+    height: 180px;
+  }
+}
+label {
+  font-size: 10px;
+  font-weight: 400;
+  align-self: flex-start;
+  margin-bottom: 5px;
+}
+.input-ele {
+  background-color: #272727;
+  outline: none;
+  color: #64748b;
+  border: solid;
+  border-color: #64748b;
+  border-radius: 3px;
+  padding: 10px;
+  border-width: 0.4px;
+  width: 200px;
+  align-self: flex-start;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .input-ele {
+    width: 300px;
+  }
+}
+.login-button {
+  background-color: #6366f1;
+  box-sizing: border-box;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #f8fafc;
+  width: 200px;
+  font-size: 12px;
+  font-family: 'Roboto';
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .login-button {
+    width: 300px;
+    cursor: pointer;
+    outline: none;
+  }
+}
+.error_msg {
+  color: #ff0b37;
+  font-size: 12px;
+}
